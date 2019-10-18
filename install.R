@@ -1,0 +1,10 @@
+install.packages("tidyverse")
+install.packages("rmarkdown")
+install.packages("httr")
+install.packages('leaflet')
+install.packages('ggplot2')
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("DESeq2")
+BiocManager::install("edgeR")
